@@ -1,0 +1,27 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  box-sizing: border-box;
+}
+
+body {
+  padding-left: 20px;
+}
+
+#output {
+  border: 2px solid black;
+  margin: 20px 0 10px 0;
+  width: 75%;
+  height: 400px;
+  overflow: scroll;
+}
+
+#chat {
+  height: 35px;
+  border: 1px solid lightgrey;
+  line-height: 35px;
+  padding-left: 5px;
+  border-radius: 8px;
+  width: 75%;
+}
