@@ -5,7 +5,7 @@ const wss = new ws.Server({port: 3001});
 wss.broadcast = function(data) {
   wss.clients.forEach(sock => {
     if (sock.readyState === ws.OPEN) {
-      sock.send(message);
+      sock.send(data);
     } else {
       sock.terminate();
     }
